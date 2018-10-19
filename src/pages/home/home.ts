@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { MiestiloPage } from '../miestilo/miestilo';
 import { LoboPage } from '../lobo/lobo';
+import { BioPrPage } from '../bio-pr/bio-pr';
 
 @Component({
   selector: 'page-home',
@@ -11,6 +12,7 @@ export class HomePage {
 
   ME=MiestiloPage;
   Lobo=LoboPage;
+  bioPR = BioPrPage;
 
   constructor(public navCtrl: NavController) {
 
@@ -23,6 +25,10 @@ export class HomePage {
   clickLobo(){
     this.navCtrl.push(this.Lobo);
 
+  }
+
+  clickPR(){
+    this.navCtrl.push(this.bioPR);    
   }
 
 
