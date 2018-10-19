@@ -12,7 +12,7 @@
   <ion-card style = "background-color:darkred">
       <ion-item style = "background-color: rgb(51, 30, 209)">
       <ion-col item-start>
-        <img src= " ../assets/Rmiestilo.jpg ">
+        <img (click)= "clickMiestilo()" src= " ../assets/Rmiestilo.jpg ">
       </ion-col>  
 
       Los Plebes Del Rancho
@@ -41,13 +41,13 @@
   <ion-card style = "background-color: rgb(26, 17, 95)">
     <ion-item style = "background-color: rgb(51, 30, 209)">
         <ion-col item-start>
-          <img src= " ../assets/VE.jpg ">
+          <img src (click)= "clickLobo()" src = " ../assets/VE.jpg ">
         </ion-col>
 
         Valentin Elizalde
         <p>
         Lobo Domesticado
-        </p>>  
+        </p> 
         <p>
         2007
         </p>
@@ -63,4 +63,5 @@
         </p>
       </ion-item>
     </ion-card>
+
 </ion-content>
