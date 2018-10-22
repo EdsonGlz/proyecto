@@ -9,6 +9,12 @@ import { HomePage } from '../pages/home/home';
 import { MiestiloPage } from '../pages/miestilo/miestilo';
 import { LoboPage } from '../pages/lobo/lobo';
 import { BioPrPage } from '../pages/bio-pr/bio-pr';
+import { AlbumPrPage } from '../pages/album-pr/album-pr';
+import { AlbumPrPageModule } from '../pages/album-pr/album-pr.module';
+import { BioVePage } from '../pages/bio-ve/bio-ve';
+import { AlbumVePage } from '../pages/album-ve/album-ve';
+import { BioUcPage } from '../pages/bio-uc/bio-uc';
+import { AlbumEePage } from '../pages/album-ee/album-ee';
 
 @NgModule({
   declarations: [
@@ -16,7 +22,12 @@ import { BioPrPage } from '../pages/bio-pr/bio-pr';
     HomePage,
     MiestiloPage,
     LoboPage,
-    BioPrPage
+    BioPrPage,
+    AlbumPrPage,
+    BioVePage,
+    AlbumVePage,
+    BioUcPage,
+    AlbumEePage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +39,13 @@ import { BioPrPage } from '../pages/bio-pr/bio-pr';
     HomePage,
     MiestiloPage,
     LoboPage,
-    BioPrPage
+    BioPrPage,
+    AlbumPrPage,
+    BioVePage,
+    AlbumVePage,
+    BioUcPage,
+    AlbumEePage
+    
   ],
   providers: [
     StatusBar,

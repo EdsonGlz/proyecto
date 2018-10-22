@@ -10,14 +10,14 @@
 
 <ion-content padding style = "background-color: black">
   <ion-card style = "background-color:darkred">
-      <ion-item style = "background-color: rgb(51, 30, 209)">
+      <ion-item style = "background-color: rgb(96, 78, 235)">
       <ion-col item-start>
         <img (click)= "clickMiestilo()" src= " ../assets/Rmiestilo.jpg ">
       </ion-col>  
 
-      <p (click) = "clickPR()"> Los Plebes Del Rancho</p>
+      <p (click) = "BioPR()"> Los Plebes Del Rancho</p>
   
-      Recuerden mi estilo
+      <p (click) = "clickPR()">Recuerden mi estilo </p>
       <p>
       2017
       </p>
@@ -38,16 +38,14 @@
 
 
 
-  <ion-card style = "background-color: rgb(26, 17, 95)">
-    <ion-item style = "background-color: rgb(51, 30, 209)">
+  <ion-card style = "background-color: darkred">
+    <ion-item style = "background-color: rgb(92, 246, 162)">
         <ion-col item-start>
           <img src (click)= "clickLobo()" src = " ../assets/VE.jpg ">
         </ion-col>
 
-        <p (click) = "clickVE()" >Valentin Elizalde</p>>
-        <p>
-        Lobo Domesticado
-        </p> 
+        <p (click) = "clickVE()" >Valentin Elizalde</p>
+        <p (click) = "albumVE()">Lobo Domesticado</p> 
         <p>
         2007
         </p>
@@ -62,6 +60,32 @@
         <ion-icon name="play"></ion-icon>
         </p>
       </ion-item>
+    </ion-card>
+
+
+    <ion-card style = "background-color:darkred">
+        <ion-item style = "background-color: rgb(51, 169, 212)">
+        <ion-col item-start>
+          <img (click)= "clickMiestilo()" src= " ../assets/ElElegido.jpg ">
+        </ion-col>  
+  
+        <p (click) = "bioUC()"> Ulises Chaidez</p>
+    
+        <p (click) = "clickEE()">El Elegido</p>
+        <p>
+        2017
+        </p>
+        <p>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        </p>
+        <p>
+        <ion-icon name="play"></ion-icon>
+        </p>
+        </ion-item>
     </ion-card>
 
       
