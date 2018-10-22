@@ -67,6 +67,14 @@ export class HomePage {
     this.navCtrl.push(this.albumEE);
 
   }
+  clickRF(){
+    this.navCtrl.push(this.albumPR);    
+  }
+
+  BioAO(){
+    this.navCtrl.push(this.bioPR);
+
+  }
 
 
 
