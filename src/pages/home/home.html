@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar>
-    <ion-title style = "background-color: black">
+    <ion-title style = "background-color: rgb(134, 134, 134)">
       <h1 style = "color: white">
       Mis Discos
       </h1>
@@ -8,9 +8,9 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding style = "background-color: black">
+<ion-content padding style = "background-color: rgb(151, 151, 151)">
   <ion-card style = "background-color:darkred">
-      <ion-item style = "background-color: rgb(96, 78, 235)">
+      <ion-item style = "background-color: rgb(56, 36, 207)">
       <ion-col item-start>
         <img (click)= "clickMiestilo()" src= " ../assets/Rmiestilo.jpg ">
       </ion-col>  
@@ -21,15 +21,15 @@
       <p>
       2017
       </p>
-      <p>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
+      <p style = "color: rgb(255, 230, 0) ">
+      <ion-icon name="star" (click)="clickREestrella()"></ion-icon>
+      <ion-icon name="star" (click)="clickREestrella()"></ion-icon>
+      <ion-icon name="star" (click)="clickREestrella()"></ion-icon>
+      <ion-icon name="star" (click)="clickREestrella()"></ion-icon>
+      <ion-icon name="star" (click)="clickREestrella()"></ion-icon>
       </p>
       <p>
-      <ion-icon name="play"></ion-icon>
+      <ion-icon style = "color: green" name="play"></ion-icon>
       </p>
       </ion-item>
   </ion-card>
@@ -39,7 +39,7 @@
 
 
   <ion-card style = "background-color: darkred">
-    <ion-item style = "background-color: rgb(92, 246, 162)">
+    <ion-item style = "background-color: rgb(3, 2, 0)">
         <ion-col item-start>
           <img src (click)= "clickLobo()" src = " ../assets/VE.jpg ">
         </ion-col>
@@ -49,24 +49,24 @@
         <p>
         2007
         </p>
-        <p>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
+        <p style = "color: rgb(255, 230, 0) ">
+        <ion-icon name="star" (click)= "clickRLD()"></ion-icon>
+        <ion-icon name="star" (click)= "clickRLD()"></ion-icon>
+        <ion-icon name="star" (click)= "clickRLD()"></ion-icon>
+        <ion-icon name="star" (click)= "clickRLD()"></ion-icon>
+        <ion-icon name="star" (click)= "clickRLD()"></ion-icon>
         </p>
         <p>
-        <ion-icon name="play"></ion-icon>
+        <ion-icon style = "color: green" name="play"></ion-icon>
         </p>
       </ion-item>
     </ion-card>
 
 
     <ion-card style = "background-color:darkred">
-        <ion-item style = "background-color: rgb(51, 169, 212)">
+        <ion-item style = "background-color: rgb(85, 34, 11)">
         <ion-col item-start>
-          <img (click)= "clickMiestilo()" src= " ../assets/ElElegido.jpg ">
+          <img (click)= "clickElElegido()" src= " ../assets/ElElegido.jpg ">
         </ion-col>  
   
         <p (click) = "bioUC()"> Ulises Chaidez</p>
@@ -75,40 +75,40 @@
         <p>
         2017
         </p>
-        <p>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
+        <p style = "color: rgb(255, 230, 0) "> 
+        <ion-icon name="star" (click) = "clickREE()"></ion-icon>
+        <ion-icon name="star" (click) = "clickREE()"></ion-icon>
+        <ion-icon name="star" (click) = "clickREE()"></ion-icon>
+        <ion-icon name="star" (click) = "clickREE()"></ion-icon>
+        <ion-icon name="star" (click) = "clickREE()"></ion-icon>
         </p>
         <p>
-        <ion-icon name="play"></ion-icon>
+        <ion-icon style = "color: green" name="play"></ion-icon>
         </p>
         </ion-item>
     </ion-card>
 
     <ion-card style = "background-color:darkred">
-      <ion-item style = "background-color: rgb(51, 169, 212)">
+      <ion-item style = "background-color: rgb(39, 38, 37)">
       <ion-col item-start>
-        <img (click)= "clickMiestilo()" src= " ../assets/ElElegido.jpg ">
+        <img (click)= "clickRuedaFortuna()" src= " ../assets/RF.jpg ">
       </ion-col>  
 
-      <p (click) = "bioAO()"> Alfredo Olivas </p>
+      <p (click) = "BioAO()"> Alfredo Olivas </p>
   
       <p (click) = "clickRF()">La Rueda de la Fortuna</p>
       <p>
       2017
       </p>
-      <p>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
+      <p style = "color: rgb(255, 230, 0) ">
+      <ion-icon name="star" (click)="clickRRF()"></ion-icon>
+      <ion-icon name="star" (click)="clickRRF()"></ion-icon>
+      <ion-icon name="star" (click)="clickRRF()"></ion-icon>
+      <ion-icon name="star" (click)="clickRRF()"></ion-icon>
+      <ion-icon name="star" (click)="clickRRF()"></ion-icon>
       </p>
       <p>
-      <ion-icon name="play"></ion-icon>
+      <ion-icon style = "color: green" name="play"></ion-icon>
       </p>
       </ion-item>
   </ion-card>

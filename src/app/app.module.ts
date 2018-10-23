@@ -15,6 +15,14 @@ import { BioVePage } from '../pages/bio-ve/bio-ve';
 import { AlbumVePage } from '../pages/album-ve/album-ve';
 import { BioUcPage } from '../pages/bio-uc/bio-uc';
 import { AlbumEePage } from '../pages/album-ee/album-ee';
+import { BioAoPage } from '../pages/bio-ao/bio-ao';
+import { AlbumRfPage } from '../pages/album-rf/album-rf';
+import { RuedaFortunaPage } from '../pages/rueda-fortuna/rueda-fortuna';
+import { ElElegidoPage } from '../pages/el-elegido/el-elegido';
+import { RRmePage } from '../pages/r-rme/r-rme';
+import { RLdPage } from '../pages/r-ld/r-ld';
+import { RRfPage } from '../pages/r-rf/r-rf';
+import { REePage } from '../pages/r-ee/r-ee';
 
 @NgModule({
   declarations: [
@@ -27,7 +35,15 @@ import { AlbumEePage } from '../pages/album-ee/album-ee';
     BioVePage,
     AlbumVePage,
     BioUcPage,
-    AlbumEePage
+    AlbumEePage,
+    BioAoPage,
+    AlbumRfPage,
+    RuedaFortunaPage,
+    ElElegidoPage,
+    RRmePage,
+    RLdPage,
+    RRfPage,
+    REePage
   ],
   imports: [
     BrowserModule,
@@ -44,7 +60,15 @@ import { AlbumEePage } from '../pages/album-ee/album-ee';
     BioVePage,
     AlbumVePage,
     BioUcPage,
-    AlbumEePage
+    AlbumEePage,
+    BioAoPage,
+    AlbumRfPage,
+    RuedaFortunaPage,
+    ElElegidoPage,
+    RRmePage,
+    RLdPage,
+    RRfPage,
+    REePage
     
   ],
   providers: [
